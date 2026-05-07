@@ -2,7 +2,7 @@
 import { ref, onMounted, inject, onUnmounted, computed } from "vue";
 import PieceSelection from './game/PieceSelection.vue';
 import GameControls from './game/GameControls.vue';
-import { useAi } from '../composables/useAi';
+import { useAi } from '../composables/useAI';
 import { useChessboard } from '../composables/useChessboard';
 import { useGameState } from '../composables/useGameState'; // 导入 useGameState
 
